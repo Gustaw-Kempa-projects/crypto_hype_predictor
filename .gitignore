@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor config
+.vscode/
+.idea/
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +197,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+>>>>>>> 8e2ac417ffbfe41490f7190c63a1860a644eb2fd

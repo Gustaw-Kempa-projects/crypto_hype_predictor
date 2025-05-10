@@ -1,0 +1,9 @@
+# core libs
+pandas>=2.1
+pytrends>=4.9
+
+# dbt (<= 1.8 keeps protobuf <5, resolving the conflict)
+dbt-sqlite<1.9               # pulls dbt-core 1.8.x and dbt-adapters 1.12.x automatically
+
+# Airflow FAB auth
+apache-airflow-providers-fab>=2.0.2

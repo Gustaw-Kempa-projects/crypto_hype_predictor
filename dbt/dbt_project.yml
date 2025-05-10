@@ -1,0 +1,14 @@
+name: crypto_tracker_project
+version: '1.0'
+profile: crypto_dbt
+
+model-paths:
+  - models
+target-path: target
+clean-targets:
+  - target
+  - dbt_modules
+
+models:
+  crypto_tracker_project:
+    materialized: table
