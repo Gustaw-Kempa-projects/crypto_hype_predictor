@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: main
+    schema: main  # For SQLite, this must be 'main'
+    tables:
+      - name: data_raw_names
+      - name: data_raw_tickers
+      - name: final_data
